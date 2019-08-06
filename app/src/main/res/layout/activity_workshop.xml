@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_workshop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+
+    tools:context="com.example.tjuhi.infotsav.Workshop.Workshop">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#303F9F"
+        android:elevation="4dp"
+        app:titleTextColor="#FFFFFF"
+        app:theme="@style/Theme.MyFancyTheme"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:id="@+id/easyFlipView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flipOnTouch="false"
+        app:flipDuration="500"
+        android:layout_margin="16dp"
+        app:flipEnabled="true">
+        <ImageView android:id="@+id/imgFrontCard"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"  />
+          <!--  android:src="@drawable/iotabout"   -->
+
+
+        <ImageView android:id="@+id/imgBackCard"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"  />
+      <!--      android:src="@drawable/iot"  -->
+
+
+
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+    <com.wajahatkarim3.easyflipview.EasyFlipView
+        android:id="@+id/easyFlipView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:flipOnTouch="true"
+        app:flipDuration="500"
+        app:flipEnabled="true">
+        <ImageView android:id="@+id/FrontCard"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"/>
+        <!--    android:src="@drawable/hackabt"   -->
+
+
+        <ImageView android:id="@+id/BackCard"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center" />
+         <!--   android:src="@drawable/hack"   -->
+
+
+
+
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+</LinearLayout>

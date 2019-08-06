@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Infotsav</string>
+
+    <string name="action_login">Login</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title1">Technical Events</string>
+    <string name="title2">Managerial Events</string>
+    <string name="title3">Simulation Events</string>
+    <string name="title4">Quiz</string>
+    <string name="title5">RoboFiesta</string>
+    <string name="title6">Gamics</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="large_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+
+    <string name="code_rush_date">October 17</string>
+    <string name="code_rush_tym">1:00</string>
+    <string name="code_rush_venue">CSK Lab</string>
+    <string name="code_rush_org_1">ABC</string>
+    <string name="code_rush_org_1_phone">07984**8**7</string>
+    <string name="code_rush_org_2">XYZ</string>
+    <string name="code_rush_org_2_phone">09987****98</string>
+
+    <string name="scrud_date">October 19</string>
+    <string name="scrud_time">2:00</string>
+    <string name="scrud_venue">SH-4</string>
+    <string name="scrud_org_1">XBC</string>
+    <string name="scrud_org_1_phone">0789****7*9</string>
+    <string name="scrud_org_2">XMN</string>
+
+    <string name="scrud_org_2_phone">0855742***9</string>
+
+
+
+
+
+    <string name="login_success">Login Successfull...</string>
+    <string name="login">LOGIN</string>
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="forgot_your_password">Forgot your password ?</string>
+    <string name="go">GO</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="next">Register</string>
+    <string name="register">REGISTER</string>
+
+
+    <string name="menu_title_following_settings">Following</string>
+
+    <!-- Message and Notification Strings -->
+    <string name="notification_message">"New squawk from %1$s"</string>
+    <string name="toast_refresh">Refreshing Data</string>
+    <string name="message_token_format" translatable="false">InstanceID Token: %s</string>
+
+    <!-- Strings for Following Screen -->
+    <string name="follow_key_switch_tech">key_tech</string>
+    <string name="follow_key_switch_managerial">key_managerial</string>
+    <string name="follow_key_switch_quiz">key_quiz</string>
+    <string name="follow_key_switch_robotics">key_robotics</string>
+    <string name="follow_key_switch_gamiacs">key_gamiacs</string>
+    <string name="follow_key_switch_general">key_general</string>
+
+    <string name="follow_title_switch_tech">Technical Events</string>
+    <string name="follow_title_switch_managerial">Managerial Events</string>
+    <string name="follow_title_switch_quiz">Quiz</string>
+    <string name="follow_title_switch_robotics">Robofiesta</string>
+    <string name="follow_title_switch_gamiacs">Gamiacs</string>
+    <string name="follow_title_switch_general">General</string>
+
+    <string name="follow_summary_not_following">Not Following</string>
+    <string name="follow_summary_following">Following</string>
+</resources>

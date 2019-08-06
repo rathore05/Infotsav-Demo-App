@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "311314636001",
+    "firebase_url": "https://infotsav-b3a2b.firebaseio.com",
+    "project_id": "infotsav-b3a2b",
+    "storage_bucket": "infotsav-b3a2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311314636001:android:e1820aaebf0e2393",
+        "android_client_info": {
+          "package_name": "com.example.tjuhi.infotsav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311314636001-57lh3mp548hktcestpu7aern7p0akc5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6iICYsDz_1QZ88PwWEBO_-J4FN43Bzks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

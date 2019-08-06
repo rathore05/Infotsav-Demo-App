@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="General">
+        <menu>
+
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_event"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_workshops"
+            android:icon="@drawable/ic_home_black"
+            android:title="Workshops" />
+        </menu>
+</item>
+        <item android:title="About">
+            <menu>
+                <item
+                    android:id="@+id/nav_sponsors"
+                    android:icon="@drawable/ic_sponsors"
+                    android:title="Sponsors" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/ic_contact"
+                    android:title="Contact Us" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>
